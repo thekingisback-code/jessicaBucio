@@ -117,179 +117,140 @@ int main(){
             cout<< "19. "<< Producto19.getProductoNombre() <<endl;
             cout<< "20. "<< Producto20.getProductoNombre() <<endl;
 
-            if(opcion2 == 1)
-            {
+            if(opcion2 == 1){
                 int num;
                 cout<< "El precio es" << " " << Producto1.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 2)
-            {
+            if(opcion2 == 2){
                 int num;
                 cout<< "El precio es" << " " << Producto2.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 3)
-            {
+            if(opcion2 == 3){
                 int num;
                 cout<< "El precio es" << " " << Producto3.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 4)
-            {
+            if(opcion2 == 4){
                 int num;
                 cout<< "El precio es" << " " << Producto4.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 5)
-            {
+            if(opcion2 == 5){
                 int num;
                 cout<< "El precio es" << " " << Producto5.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 6)
-            {
+            if(opcion2 == 6){
                 int num;
                 cout<< "El precio es" << " " << Producto6.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 7)
-            {
+            if(opcion2 == 7){
                 int num;
                 cout<< "El precio es" << " " << Producto7.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 8)
-            {
+            if(opcion2 == 8){
                 int num;
                 cout<< "El precio es" << " " << Producto8.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 9)
-            {
+            if(opcion2 == 9){
                 int num;
                 cout<< "El precio es" << " " << Producto9.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 10)
-            {
+            if(opcion2 == 10){
                 int num;
                 cout<< "El precio es" << " " << Producto10.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 11)
-            {
+            if(opcion2 == 11){
                 int num;
                 cout<< "El precio es" << " " << Producto11.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 12)
-            {
+            if(opcion2 == 12){
                 int num;
                 cout<< "El precio es" << " " << Producto12.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 13)
-            {
+            if(opcion2 == 13){
                 int num;
                 cout<< "El precio es" << " " << Producto13.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 14)
-            {
+            if(opcion2 == 14){
                 int num;
                 cout<< "El precio es" << " " << Producto14.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 15)
-            {
+            if(opcion2 == 15){
                 int num;
                 cout<< "El precio es" << " " << Producto15.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 16)
-            {
+            if(opcion2 == 16){
                 int num;
                 cout<< "El precio es" << " " << Producto16.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 17)
-            {
+            if(opcion2 == 17){
                 int num;
                 cout<< "El precio es" << " " << Producto17.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 18)
-            {
+            if(opcion2 == 18){
                 int num;
                 cout<< "El precio es" << " " << Producto18.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 19)
-            {
+            if(opcion2 == 19){
                 int num;
                 cout<< "El precio es" << " " << Producto19.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
                 cin>> num;
                 break;
-
             }
-            if(opcion2 == 20)
-            {
+            if(opcion2 == 20){
                 int num;
                 cout<< "El precio es" << " " << Producto20.getPrecioVenta() << endl;
                 cout<< "Cuantas vas a vender?" <<endl;
@@ -297,7 +258,7 @@ int main(){
                 break;
             }
         }
-    } while (1);
+    }while (1);
 
     return 0;
 }
