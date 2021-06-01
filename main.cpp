@@ -1,4 +1,3 @@
-#include "tchar.h"
 #include <iostream>
 #include <vector>
 #include <string>
@@ -59,7 +58,7 @@ int Producto::getCantidadVendida() const
 {
 	return cantidadVendida ;
 }
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	Producto Producto1 (1, "chips", .99 , 1.99, 50);
 	Producto Producto2 (2, "pepsi", 1.99 , 2.99, 50);
