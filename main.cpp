@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include <iomanip>
+#include <cmath>
 
 using namespace std;
 
@@ -27,7 +28,8 @@ public:
     double getPrecioCompra() const;
     double getPrecioVenta() const;
     int getCantidadVendida() const;
-    void venderProducto();
+    void venderProducto(int cant);
+    void restockProducto(int cant);
 };
 
 Producto::Producto(int id, string nombre, double Cprecio, double Vprecio, int q){
@@ -53,10 +55,12 @@ double Producto:: getPrecioVenta() const{
 int Producto::getCantidadVendida() const{
     return cantidadVendida ;
 }
-void Producto::venderProducto(){
-    cantidadVendida++;
+void Producto::venderProducto(int cant){
+    cantidadVendida-=abs(cant);
 }
-
+void Producto::restockProducto(int cant){
+    cantidad+=abs(cant);
+}
 
 int main(){
 
